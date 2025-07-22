@@ -1,3 +1,5 @@
+import React from "react";
+
 function SearchBar({filterText, inStockOnly, onFilterTextChange, onInStockOnlyChange}){
 
     return(

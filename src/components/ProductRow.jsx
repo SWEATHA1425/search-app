@@ -1,7 +1,7 @@
 import React from "react";
 function ProductRow({product}){
     const name = product.stocked ? (product.name) : 
-    (<span className="text-red">{product.name}</span>);
+    (<span className="text-red-500">{product.name}</span>);
 
     return(
         <tr>
